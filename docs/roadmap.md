@@ -1,14 +1,16 @@
 # JavaQuest Roadmap
 
-Este documento acompanha a evolução do JavaQuest e os principais conceitos de Java e Programação Orientada a Objetos que serão estudados ao longo do desenvolvimento.
+Este documento acompanha a evolução do JavaQuest e os conceitos de Java e Programação Orientada a Objetos estudados durante o desenvolvimento.
 
-A ideia é que o projeto cresça de forma incremental, acompanhando o aprendizado, em vez de tentar implementar todas as funcionalidades de uma vez.
+O projeto será desenvolvido de forma incremental, utilizando o RPG como uma forma prática de aplicar os conceitos aprendidos.
+
+O objetivo não é criar um jogo completo, mas construir uma aplicação pequena o suficiente para ser compreendida e, ao mesmo tempo, explorar os principais fundamentos de POO.
 
 ---
 
-## Fundamentos
+## 🌱 Fundamentos
 
-Primeiro, construir a base do projeto e compreender os conceitos fundamentais de Java.
+Construir a base do projeto e revisar os conceitos fundamentais de Java.
 
 - [x] Criar a estrutura inicial do projeto
 - [x] Definir o modelo inicial do domínio
@@ -19,80 +21,57 @@ Primeiro, construir a base do projeto e compreender os conceitos fundamentais de
 
 ---
 
-## Programação Orientada a Objetos
+## 🧬 Programação Orientada a Objetos
 
-Explorar os principais conceitos de POO através do modelo de personagens.
+Aplicar os principais pilares da POO através do modelo do JavaQuest.
 
 - [ ] Implementar herança
 - [ ] Explorar polimorfismo
 - [ ] Introduzir abstração
 - [ ] Trabalhar com classes abstratas
 - [ ] Trabalhar com interfaces
-- [ ] Refatorar o modelo conforme novos conceitos forem aprendidos
 
 ---
 
-## Sistemas do RPG
+## ⚔️ Sistemas do RPG
 
-Depois de consolidar os fundamentos de POO, começar a transformar o modelo em um RPG funcional.
+Utilizar os conceitos aprendidos para construir os principais sistemas da aplicação.
 
 - [ ] Criar diferentes tipos de personagens
-- [ ] Criar sistema de atributos
+- [ ] Criar inimigos
 - [ ] Criar sistema de habilidades
-- [ ] Criar sistema de inimigos
-- [ ] Criar sistema de combate
 - [ ] Criar sistema de itens
 - [ ] Criar inventário
 - [ ] Criar equipamentos
-- [ ] Criar sistema de missões
+- [ ] Criar sistema de combate
+- [ ] Criar sistema simples de missões
 
 ---
 
-## Recursos da linguagem
+## 📦 Recursos adicionais de Java
 
-Explorar recursos importantes da linguagem Java.
+Explorar alguns recursos importantes da linguagem depois que os fundamentos de POO estiverem consolidados.
 
 - [ ] Collections
-- [ ] Generics
 - [ ] Enumerações
 - [ ] Tratamento de exceções
-- [ ] Streams
-- [ ] Lambda
-- [ ] Manipulação de arquivos
-- [ ] Testes automatizados
+- [ ] Generics
+- [ ] Streams e Lambda
 
 ---
 
-## Persistência
+## 🏁 Finalização
 
-Aprender a trabalhar com dados persistentes.
-
-- [ ] Criar sistema de salvamento
-- [ ] Carregar dados salvos
-- [ ] Avaliar diferentes formas de persistência
-- [ ] Integrar um banco de dados
-
----
-
-## Expansão para Web
-
-Quando os fundamentos de Java estiverem consolidados, o projeto poderá evoluir para uma aplicação web.
-
-- [ ] Criar uma API REST
-- [ ] Introduzir Spring Boot
-- [ ] Integrar banco de dados
-- [ ] Criar autenticação
-- [ ] Criar frontend web
-- [ ] Integrar frontend e backend
-
-> Esta etapa é um objetivo futuro. A prioridade atual é aprender Java e POO através do desenvolvimento do núcleo do projeto.
+- [ ] Integrar os principais sistemas
+- [ ] Revisar e refatorar o código
+- [ ] Testar a aplicação
+- [ ] Atualizar a documentação
+- [ ] Finalizar o projeto
 
 ---
 
-## Princípio do projeto
+## 🎯 Objetivo final
 
-O roadmap não é definitivo.
+O JavaQuest será considerado concluído quando possuir uma pequena experiência de RPG executada no terminal e tiver permitido aplicar, de forma prática, os principais conceitos de Java e Programação Orientada a Objetos estudados durante o desenvolvimento.
 
-Novas ideias podem ser adicionadas e funcionalidades podem ser modificadas ou removidas conforme o projeto evolui e novos conhecimentos são adquiridos.
-
-O objetivo principal continua sendo o aprendizado.
+O escopo pode ser ajustado ao longo do projeto para manter o foco no aprendizado.
