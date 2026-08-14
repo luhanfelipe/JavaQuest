@@ -2,19 +2,24 @@
 
 ## 📖 Visão geral
 
-O JavaQuest será desenvolvido de forma incremental.
+O JavaQuest será uma aplicação Java simples executada através do terminal.
 
-A arquitetura inicial será simples, permitindo que os conceitos fundamentais de Java e Programação Orientada a Objetos sejam estudados sem adicionar complexidade desnecessária.
+A arquitetura foi pensada para manter o projeto fácil de compreender e permitir que os conceitos de Programação Orientada a Objetos sejam o principal foco do desenvolvimento.
 
-Conforme o projeto evoluir, sua estrutura poderá ser reorganizada para acompanhar novos requisitos e conhecimentos.
+Não há necessidade de uma arquitetura complexa neste projeto.
 
 ---
 
-## 🧱 Estrutura planejada
+## 🧱 Estrutura inicial
 
-Inicialmente, o projeto será focado no núcleo da aplicação:
+O código será organizado dentro de `src`, utilizando pacotes para separar responsabilidades quando necessário.
+
+Uma estrutura inicial possível:
 
 ```text
 src/
 └── main/
     └── java/
+        ├── model/
+        ├── service/
+        └── Main.java
