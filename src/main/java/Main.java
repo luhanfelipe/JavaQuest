@@ -2,17 +2,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Personagem personagem = new Personagem("Luhan", 100, 20);
+        Guerreiro guerreiro = new Guerreiro("Aragorn", 120, 25);
+        Mago mago = new Mago("Gandalf", 80, 35);
 
-        personagem.mostrarStatus();
+        System.out.println("=== GUERREIRO ===");
+        guerreiro.mostrarStatus();
+        guerreiro.atacarComEspada();
 
         System.out.println();
 
-        personagem.setVida(80);
-        personagem.setAtaque(25);
-
-        System.out.println("Após algumas alterações:");
-
-        personagem.mostrarStatus();
+        System.out.println("=== MAGO ===");
+        mago.mostrarStatus();
+        mago.lancarFeitico();
     }
 }
