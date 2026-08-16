@@ -1,7 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Bem-vindo ao JavaQuest!");
+        Personagem personagem = new Personagem("Luhan");
+
+        System.out.println("Personagem criado!");
     }
 
 }
