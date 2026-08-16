@@ -1,13 +1,18 @@
 public class Main {
 
     public static void main(String[] args) {
-        Personagem personagem = new Personagem("Luhan");
 
-        System.out.println("Nome: " + personagem.getNome());
+        Personagem personagem = new Personagem("Luhan", 100, 20);
 
-        personagem.setNome("Arthur");
+        personagem.mostrarStatus();
 
-        System.out.println("Novo nome: " + personagem.getNome());
+        System.out.println();
+
+        personagem.setVida(80);
+        personagem.setAtaque(25);
+
+        System.out.println("Após algumas alterações:");
+
+        personagem.mostrarStatus();
     }
-
 }
