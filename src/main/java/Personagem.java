@@ -40,4 +40,8 @@ public class Personagem {
         System.out.println("Vida: " + vida);
         System.out.println("Ataque: " + ataque);
     }
+
+    public void atacar() {
+        System.out.println(nome + " realizou um ataque!");
+    }
 }
