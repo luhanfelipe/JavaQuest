@@ -7,4 +7,9 @@ public class Mago extends Personagem {
     public void lancarFeitico() {
         System.out.println(getNome() + " lançou um feitiço!");
     }
+
+    @Override
+    public void atacar() {
+        System.out.println(getNome() + " lançou um feitiço!");
+    }
 }

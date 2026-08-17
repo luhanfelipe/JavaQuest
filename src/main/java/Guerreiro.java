@@ -7,4 +7,9 @@ public class Guerreiro extends Personagem {
     public void atacarComEspada() {
         System.out.println(getNome() + " atacou com sua espada!");
     }
+
+    @Override
+    public void atacar() {
+        System.out.println(getNome() + " atacou com sua espada!");
+    }
 }
