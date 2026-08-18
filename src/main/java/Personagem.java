@@ -41,7 +41,5 @@ public abstract class Personagem {
         System.out.println("Ataque: " + ataque);
     }
 
-    public void atacar() {
-        System.out.println(nome + " realizou um ataque!");
-    }
+    public abstract void atacar();
 }
