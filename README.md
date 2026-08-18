@@ -1,154 +1,89 @@
 # ☕ JavaQuest
 
-> Uma jornada de aprendizado em Java através da criação de um pequeno RPG.
+JavaQuest é um projeto pessoal criado para praticar Java e Programação Orientada a Objetos (POO) por meio de um pequeno cenário inspirado em RPG.
 
-## 📖 Sobre o projeto
+O projeto foi desenvolvido como uma forma de estudar Java na prática, começando pelos conceitos básicos de POO e evoluindo gradualmente para conceitos como encapsulamento, herança, polimorfismo e abstração.
 
-O **JavaQuest** é um projeto pessoal criado para estudar e praticar **Java** e **Programação Orientada a Objetos (POO)** através do desenvolvimento de um pequeno RPG de fantasia.
+## 🎯 Objetivo
 
-A ideia é utilizar o desenvolvimento do projeto como uma forma prática de compreender conceitos da linguagem, começando pelos fundamentos e evoluindo gradualmente para conceitos mais avançados de POO.
+O principal objetivo do JavaQuest foi servir como um projeto de aprendizado para colocar em prática os fundamentos de Programação Orientada a Objetos em Java.
 
-O projeto não tem como objetivo ser um RPG comercial ou um jogo completo. Seu principal propósito é **aprender Java na prática**.
-
----
-
-## 🎯 Objetivos
-
-- Aprender Java através de um projeto prático.
-- Revisar e consolidar os fundamentos da linguagem.
-- Compreender os principais conceitos de Programação Orientada a Objetos.
-- Praticar boas práticas de organização e desenvolvimento.
-- Aplicar os conceitos aprendidos em um projeto pessoal.
-- Criar uma pequena aplicação funcional como resultado do aprendizado.
-
----
-
-## 🧠 Conceitos estudados
-
-Durante o desenvolvimento, o projeto será utilizado para explorar conceitos como:
+Durante o desenvolvimento, foram estudados:
 
 - Classes e objetos
-- Atributos e métodos
 - Construtores
 - Encapsulamento
+- Getters e setters
 - Herança
+- Sobrescrita de métodos
 - Polimorfismo
-- Abstração
 - Classes abstratas
-- Interfaces
-- Collections
-- Generics
-- Enumerações
-- Tratamento de exceções
-- Streams e Lambda
+- Métodos abstratos
 
-Nem todos os conceitos precisam ser implementados de uma única vez. O projeto será desenvolvido de forma incremental, acompanhando o processo de aprendizado.
+## ⚔️ Estrutura
 
----
+O projeto possui uma estrutura simples de personagens:
 
-## ⚔️ O JavaQuest
+              Personagem
+             <<abstrata>>
+                  │
+          ┌───────┴───────┐
+          │               │
+      Guerreiro          Mago
 
-O projeto será um pequeno RPG executado através do terminal.
+Personagem é a classe abstrata que representa a estrutura comum dos personagens.
 
-Entre as funcionalidades planejadas estão:
+Guerreiro e Mago são especializações de Personagem e possuem suas próprias implementações do método atacar().
 
-- 🧙 Personagens
-- ⚔️ Classes de personagens
-- 👹 Inimigos
-- 🎒 Inventário
-- 🗡️ Itens e equipamentos
-- ⚔️ Sistema de combate
-- 📜 Missões
-- 🌎 Pequeno mundo de fantasia
+🛠️ Tecnologias
+  Java 17
+  Programação Orientada a Objetos
+  Git
+  GitHub
 
-Essas funcionalidades serão utilizadas principalmente como ferramentas para aplicar os conceitos de Java e POO.
 
----
 
-## 🛠️ Tecnologias
+▶️ Como executar
 
-Atualmente, o projeto utiliza:
+  Na raiz do projeto, compile os arquivos Java:
 
-- **Java 17**
+  javac src/main/java/*.java
 
-O projeto foi propositalmente mantido simples, sem frameworks ou ferramentas externas, para que o foco permaneça nos fundamentos da linguagem e da Programação Orientada a Objetos.
+  Depois execute:
 
----
+  java -cp src/main/java Main
 
-## 🗺️ Roadmap
 
-O desenvolvimento está dividido em etapas:
+📁 Estrutura do projeto
+  JavaQuest/
+  ├── docs/
+  │   ├── architecture.md
+  │   ├── ideas.md
+  │   └── roadmap.md
+  ├── src/
+  │   └── main/
+  │       └── java/
+  │           ├── Main.java
+  │           ├── Personagem.java
+  │           ├── Guerreiro.java
+  │           └── Mago.java
+  ├── .gitignore
+  └── README.md
 
-### 🌱 Fundamentos
+📚 Documentação
 
-- [ ] Classes e objetos
-- [ ] Atributos e métodos
-- [ ] Construtores
-- [ ] Encapsulamento
+  A pasta docs/ contém documentos relacionados ao projeto e ao seu desenvolvimento.
 
-### 🧬 POO
+🏁 Status
 
-- [ ] Herança
-- [ ] Polimorfismo
-- [ ] Abstração
-- [ ] Classes abstratas
-- [ ] Interfaces
+  Concluído.
 
-### ⚔️ RPG
+  O JavaQuest cumpriu seu objetivo como projeto pessoal de aprendizado dos fundamentos de Programação Orientada a Objetos em Java.
 
-- [ ] Personagens
-- [ ] Inimigos
-- [ ] Itens
-- [ ] Inventário
-- [ ] Combate
-- [ ] Missões
+  O projeto foi intencionalmente mantido pequeno para que o foco permanecesse no aprendizado.
 
-### 📦 Recursos adicionais
+📌 Sobre
 
-- [ ] Collections
-- [ ] Generics
-- [ ] Enumerações
-- [ ] Tratamento de exceções
-- [ ] Streams e Lambda
+  Este é um projeto pessoal desenvolvido durante meus estudos de Java e POO.
 
-### 🏁 Finalização
-
-- [ ] Integrar os principais sistemas
-- [ ] Revisar e refatorar o código
-- [ ] Testar a aplicação
-- [ ] Atualizar a documentação
-- [ ] Finalizar o projeto
-
-Para acompanhar o planejamento com mais detalhes, consulte o [roadmap](./docs/roadmap.md).
-
----
-
-## 📚 Documentação
-
-A documentação complementar está disponível na pasta [`docs`](./docs):
-
-- [Roadmap](./docs/roadmap.md)
-- [Ideias](./docs/ideas.md)
-- [Arquitetura](./docs/architecture.md)
-
----
-
-## 🚧 Status
-
-**Em desenvolvimento**
-
-O JavaQuest é um projeto pessoal de aprendizado e seu escopo pode ser ajustado durante o desenvolvimento.
-
-O objetivo é manter o projeto pequeno, compreensível e focado na aplicação prática dos conceitos estudados.
-
----
-
-## 👨‍💻 Sobre
-
-O JavaQuest faz parte da minha jornada de aprendizado em **Java e Programação Orientada a Objetos**.
-
-A ideia é aprender construindo: começar com conceitos simples, aplicá-los em um projeto real e evoluir gradualmente conforme novos conhecimentos são adquiridos.
-
----
-
-☕ **Build small. Learn deeply. Improve continuously.**
+  O JavaQuest não tem como objetivo ser um RPG completo. Ele foi criado como um espaço simples para aprender, experimentar e praticar os conceitos fundamentais da linguagem.

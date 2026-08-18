@@ -1,77 +1,45 @@
-# JavaQuest Roadmap
+# Roadmap
 
-Este documento acompanha a evolução do JavaQuest e os conceitos de Java e Programação Orientada a Objetos estudados durante o desenvolvimento.
+O JavaQuest foi criado como um projeto pessoal de aprendizado de Java e Programação Orientada a Objetos.
 
-O projeto será desenvolvido de forma incremental, utilizando o RPG como uma forma prática de aplicar os conceitos aprendidos.
+O desenvolvimento foi dividido em pequenas etapas para permitir a prática gradual dos principais conceitos de POO.
 
-O objetivo não é criar um jogo completo, mas construir uma aplicação pequena o suficiente para ser compreendida e, ao mesmo tempo, explorar os principais fundamentos de POO.
-
----
-
-## 🌱 Fundamentos
-
-Construir a base do projeto e revisar os conceitos fundamentais de Java.
+## Etapas concluídas
 
 - [x] Criar a estrutura inicial do projeto
-- [x] Definir o modelo inicial do domínio
-- [ ] Criar a entidade `Personagem`
-- [ ] Trabalhar com atributos e métodos
-- [ ] Criar construtores
-- [ ] Implementar encapsulamento
+- [x] Criar a classe principal da aplicação
+- [x] Criar a classe `Personagem`
+- [x] Adicionar atributos ao personagem
+- [x] Implementar construtor
+- [x] Implementar encapsulamento
+- [x] Adicionar getters e setters
+- [x] Criar a classe `Guerreiro`
+- [x] Criar a classe `Mago`
+- [x] Implementar herança
+- [x] Implementar sobrescrita de métodos
+- [x] Implementar polimorfismo
+- [x] Implementar abstração
+- [x] Atualizar a documentação
+- [x] Concluir os objetivos de aprendizado
 
----
+## Ideias fora do escopo
 
-## 🧬 Programação Orientada a Objetos
+Algumas possibilidades foram consideradas, mas não fazem parte do projeto final:
 
-Aplicar os principais pilares da POO através do modelo do JavaQuest.
+- [ ] Sistema de combate completo
+- [ ] Inimigos
+- [ ] Experiência e níveis
+- [ ] Inventário
+- [ ] Habilidades
+- [ ] Interface gráfica
+- [ ] Interface web
 
-- [ ] Implementar herança
-- [ ] Explorar polimorfismo
-- [ ] Introduzir abstração
-- [ ] Trabalhar com classes abstratas
-- [ ] Trabalhar com interfaces
+Esses itens não são considerados tarefas pendentes. São apenas ideias que ficaram fora do escopo definido para o projeto.
 
----
+## Status final
 
-## ⚔️ Sistemas do RPG
+**Concluído.**
 
-Utilizar os conceitos aprendidos para construir os principais sistemas da aplicação.
+Os objetivos originais do JavaQuest foram alcançados.
 
-- [ ] Criar diferentes tipos de personagens
-- [ ] Criar inimigos
-- [ ] Criar sistema de habilidades
-- [ ] Criar sistema de itens
-- [ ] Criar inventário
-- [ ] Criar equipamentos
-- [ ] Criar sistema de combate
-- [ ] Criar sistema simples de missões
-
----
-
-## 📦 Recursos adicionais de Java
-
-Explorar alguns recursos importantes da linguagem depois que os fundamentos de POO estiverem consolidados.
-
-- [ ] Collections
-- [ ] Enumerações
-- [ ] Tratamento de exceções
-- [ ] Generics
-- [ ] Streams e Lambda
-
----
-
-## 🏁 Finalização
-
-- [ ] Integrar os principais sistemas
-- [ ] Revisar e refatorar o código
-- [ ] Testar a aplicação
-- [ ] Atualizar a documentação
-- [ ] Finalizar o projeto
-
----
-
-## 🎯 Objetivo final
-
-O JavaQuest será considerado concluído quando possuir uma pequena experiência de RPG executada no terminal e tiver permitido aplicar, de forma prática, os principais conceitos de Java e Programação Orientada a Objetos estudados durante o desenvolvimento.
-
-O escopo pode ser ajustado ao longo do projeto para manter o foco no aprendizado.
+O projeto cumpriu sua função como ambiente de prática dos fundamentos de Programação Orientada a Objetos em Java.

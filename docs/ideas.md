@@ -1,101 +1,48 @@
-# JavaQuest Ideas
+# Ideias
 
-Este documento reúne ideias para possíveis funcionalidades, personagens e elementos do universo do JavaQuest.
+Este documento reúne as ideias consideradas durante o desenvolvimento do JavaQuest.
 
-As ideias registradas aqui são apenas possibilidades. Nem todas precisam ser implementadas.
+O projeto foi mantido pequeno de propósito, para que o foco permanecesse no aprendizado de Java e Programação Orientada a Objetos.
 
-O objetivo é manter o projeto pequeno o suficiente para que o foco continue sendo o aprendizado de Java e Programação Orientada a Objetos.
+## Ideia principal
 
----
+Criar um pequeno projeto inspirado em RPG para praticar conceitos de POO por meio de personagens e suas especializações.
 
-## ⚔️ Personagens
+A ideia inicial era começar com uma classe simples e evoluir gradualmente para conceitos mais avançados de orientação a objetos.
+
+## Personagens
+
+As primeiras especializações escolhidas foram:
 
 - Guerreiro
 - Mago
-- Arqueiro
-- Outras classes de personagem
-- Sistema de atributos
-- Vida
-- Ataque
-- Defesa
-- Mana
-- Habilidades específicas para cada classe
-- Sistema simples de experiência e nível
 
----
+Essas classes foram utilizadas para praticar:
 
-## 👹 Inimigos
+- Herança
+- Sobrescrita de métodos
+- Polimorfismo
+- Abstração
 
-- Goblin
-- Slime
-- Esqueleto
-- Orc
-- Dragão
-- Diferentes atributos para cada inimigo
-- Comportamentos diferentes durante o combate
+## Possibilidades de expansão
 
----
+Durante o planejamento do projeto, algumas ideias de funcionalidades foram consideradas:
 
-## 🎒 Itens
+- Sistema de combate
+- Inimigos
+- Sistema de experiência
+- Níveis
+- Inventário
+- Itens e equipamentos
+- Habilidades
+- Evolução dos personagens
+- Interface gráfica
+- Interface web
 
-- Espadas
-- Arcos
-- Armaduras
-- Poções
-- Itens consumíveis
-- Itens especiais
-- Diferentes níveis de raridade
+## Escopo final
 
----
+Essas funcionalidades não foram implementadas porque o objetivo principal do JavaQuest era estudar os fundamentos de POO.
 
-## ⚔️ Combate
+O projeto foi encerrado após a implementação dos principais conceitos planejados.
 
-- Ataques básicos
-- Defesa
-- Habilidades especiais
-- Sistema de dano
-- Sistema de vida
-- Combate baseado em turnos
-- Batalhas contra diferentes tipos de inimigos
-
----
-
-## 📜 Missões
-
-- Missões principais
-- Missões secundárias
-- Objetivos
-- Recompensas
-- Status das missões
-
----
-
-## 🌎 Mundo
-
-- Cidades
-- Vilas
-- Florestas
-- Masmorras
-- NPCs
-- Lojas
-- Diferentes regiões
-
----
-
-## 💡 Outras ideias
-
-- Sistema de diálogo
-- Sistema de escolhas
-- Sistema de reputação
-- Eventos aleatórios
-- Sistema de salvamento
-- Mapa simples
-- Pequena história para o RPG
-
----
-
-## 📝 Observação
-
-O JavaQuest não precisa implementar todas as ideias deste documento.
-
-Novas ideias podem ser adicionadas durante o desenvolvimento, mas o escopo deve continuar pequeno e compatível com o objetivo principal do projeto: aprender Java através da prática.
+As ideias acima ficam registradas como possibilidades para futuros projetos, mas não são consideradas tarefas pendentes do JavaQuest.
