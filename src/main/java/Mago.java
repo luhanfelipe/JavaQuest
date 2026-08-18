@@ -4,10 +4,6 @@ public class Mago extends Personagem {
         super(nome, vida, ataque);
     }
 
-    public void lancarFeitico() {
-        System.out.println(getNome() + " lançou um feitiço!");
-    }
-
     @Override
     public void atacar() {
         System.out.println(getNome() + " lançou um feitiço!");
